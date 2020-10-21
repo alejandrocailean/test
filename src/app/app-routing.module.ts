@@ -8,6 +8,7 @@ import { AnagramaComponent } from './componentes/Juegos/anagrama/anagrama.compon
 import { CardsComponent } from './componentes/Juegos/cards/cards.component';
 import { PiedraPapelTijeraComponent } from './componentes/Juegos/piedra-papel-tijera/piedra-papel-tijera.component';
 import { TatetiComponent } from './componentes/Juegos/tateti/tateti.component';
+import { LoginComponent } from './componentes/Pages/login/login.component';
 import { RutaAboutComponent } from './componentes/ruta-about/ruta-about.component';
 import { RutaHomeComponent } from './componentes/ruta-home/ruta-home.component';
 import { RutaJuegosComponent } from './componentes/ruta-juegos/ruta-juegos.component';
@@ -27,6 +28,7 @@ const routes: Routes = [
       {path:'ruta-cards',component:CardsComponent}
     ]
   },
+  {path:'login',component:LoginComponent},
   {path:"ruta-about",component:RutaAboutComponent},
   {path:"ruta-resultados",component:RutaResultadosComponent},  
   {path:"**",component:ErrorHandler}

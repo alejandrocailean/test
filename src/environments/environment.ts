@@ -5,14 +5,14 @@
 export const environment = {
   production: false,
   firebase: {
-    apiKey: "AIzaSyDIaOSJV4a1WS8ZfmLvPMKjOPof8tNi3Vs",
-    authDomain: "tp-saladejuegos-194f1.firebaseapp.com",
-    databaseURL: "https://tp-saladejuegos-194f1.firebaseio.com",
-    projectId: "tp-saladejuegos-194f1",
-    storageBucket: "tp-saladejuegos-194f1.appspot.com",
-    messagingSenderId: "524923975944",
-    appId: "1:524923975944:web:1923d05d53d85f04b594bd",
-    measurementId: "G-DQD50MVRC9"
+    apiKey: "AIzaSyAUZjG74sT7Uq4CokptPZQFAXcyEpqFFZU",
+  authDomain: "tp-labo4.firebaseapp.com",
+  databaseURL: "https://tp-labo4.firebaseio.com",
+  projectId: "tp-labo4",
+  storageBucket: "tp-labo4.appspot.com",
+  messagingSenderId: "81326872112",
+  appId: "1:81326872112:web:4b395c300e435449437ff5",
+  measurementId: "G-JE7MV3Z5LT"
   }
 };
 

@@ -1,4 +1,5 @@
 import { Component, OnInit, Output, EventEmitter } from '@angular/core';
+import * as firebase from 'firebase';
 import { Jugador } from 'src/app/class/jugador';
 
 @Component({
@@ -24,5 +25,9 @@ export class RutaResultadosComponent implements OnInit {
     console.log(this.j);
   }
 
+  view(){
+    const user = firebase.auth().currentUser
+    console.log(user);
+  }
 
 }
