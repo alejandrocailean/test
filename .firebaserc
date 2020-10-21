@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "tp-saladejuegos-194f1": {
+      "hosting": {
+        "TP-LABO4": [
+          "tp-saladejuegos-194f1"
+        ]
+      }
+    }
+  }
+}

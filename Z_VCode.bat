@@ -1,0 +1,2 @@
+code .
+call servidor.bat
